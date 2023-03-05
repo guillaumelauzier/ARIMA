@@ -10,7 +10,7 @@ ARIMA models are widely used in time series analysis and forecasting, including 
 
 # src.cpp
 
-
+This code loads a time series data, sets the ARIMA model parameters, and predicts the next value in the time series using the `predictNextValue` function. The predicted value is then outputted to the console.
 
 # lib.cpp
 

@@ -9,3 +9,9 @@ The parameters of the ARIMA model include the order of the AR component (p), the
 ARIMA models are widely used in time series analysis and forecasting, including applications such as financial forecasting, stock price prediction, demand forecasting, and weather forecasting. However, ARIMA models have some limitations, such as the assumption of linear relationships between the variables, the requirement of stationary time series, and the inability to capture complex nonlinear patterns or dependencies. Therefore, other techniques such as LSTM (Long Short-Term Memory) models and other deep learning models may be more suitable for some applications.
 
 # src.cpp
+
+
+
+# lib.cpp
+
+This code defines a time series data vector data and specifies the order of the ARIMA model (p = 1, d = 1, q = 1). It then creates an ARIMA model object and fits it to the data using the fit() method. The resulting model coefficients and residuals are printed to the console. Finally, the code predicts the next value of the time series using the predict() method and prints the result. Note that this is a simple example, and more complex models may require additional preprocessing, parameter tuning, and error analysis.
